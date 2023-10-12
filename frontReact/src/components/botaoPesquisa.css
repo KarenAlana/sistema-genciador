@@ -1,0 +1,15 @@
+.botaoPesquisa{
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.botaoPesquisa input{
+    max-width: 300px;
+    min-width: 298px;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    margin: auto;
+}

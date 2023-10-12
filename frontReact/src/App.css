@@ -1,0 +1,57 @@
+.containerPrincipal {
+  width: 100%;
+  display: flex;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@media (max-width: 500px) {
+  .containerPrincipal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.containerSecundario{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 15px;
+}
+
+.openMenu{
+  display: none;
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+@media (max-width: 500px) {
+  .openMenu{
+    display: flex;
+    justify-content:flex-end ;
+    align-items: center;
+    height: 48px;
+  }
+}
+
+.s {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerCadastro {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 2.4px;
+  outline: none;
+  border: 0.8px solid #c0bebe;
+}
+
+button {
+  cursor: pointer; 
+}
+
